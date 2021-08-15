@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NetVerify 2021 - Network Verification Workshop</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise(json)
+        });
+    </script>
+</head>
+
+<body>
+
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .piccolumn {
+            float: left;
+            width: 45%
+        }
+
+        .piccolumn2 {
+            float: left;
+            width: 35%
+        }
+
+        .column {
+            float: left;
+            width: 70%;
+        }
+
+        .card {
+            margin: 8px;
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        .card2 {
+            padding: 1px;
+        }
+
+        .about-section {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            background-color: orangered;
+            color: white;
+            font-weight: 900;
+            border-radius: 15px;
+        }
+
+        .pagebody {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .container {
+            padding: 0px;
+            text-align: justify;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+
+    <div class="about-section">
+        <h2><b>NetVerify 2021 - Network Verification Workshop</b></h2>
+        <h4><b>In conjunction with the 29th <a href="https://icnp21.cs.ucr.edu/">IEEE ICNP 2021</a>, Online, November 1,
+                2021</b></h4>
+    </div>
+
+    <div class="pagebody">
+        <p>
+            Networks are the lifeline of modern applications. The reliability of these applications is directly
+            correlated with the networks that support them. Preserving the availability and trustworthiness of computer
+            networks continues to be an open challenge, which is further magnified with the scale and sophistication of
+            modern networks. Traditionally, we used expert engineers to manage all aspects of the network. This approach
+            is not viable for large-scale networks. On one hand, we have cloud networks that comprise several hundreds
+            of thousands of network devices that interconnect several million servers. New advances such as programmable
+            network devices further magnify the complexity - we now also have churn in the dataplane in addition to the
+            control plane. On the other hand, we have enterprises migrating to the cloud and deploying virtual networks
+            at scale. Managing both kind of networks require solving the same set of challenges:
+
+        <ol>
+            <li>How do you specify intent?</li>
+            <li>How do you translate the intent to configurations, and ensure that it is correct by construction?</li>
+            <li>How do you track and remediate drift?</li>
+            <li>How do you ensure that changes do not violate the intent?</li>
+        </ol>
+
+        Solving these challenges requires a multipronged approach. NetVerify envisions to create an
+        interdisciplinary forum to foster interactions between researchers and practitioners from fields such as
+        networking, security, formal methods, programming languages, and machine learning. Our objective is to
+        stimulate discussions to both advance the science of network verification and influence adoption. The
+        workshop will host a combination of invited and contributed talks.
+        </p>
+
+        <h3>Topics of Interest</h3>
+        <p>
+            We invite talk proposals on early-stage ideas, position papers, and case studies on all topics relating to
+            verifying reliability, dependability, and trustworthiness of computer networks including, but not limited
+            to:
+        <ol>
+            <li>Automated verification and testing of all aspects of computer networks.</li>
+            <li>Algorithms for verifying control plane and data plane.</li>
+            <li>Managing, debugging, and diagnosing problems in networked systems.</li>
+            <li>Network configuration synthesis.</li>
+            <li>Languages for networking and security.</li>
+            <li>Case studies of deploying verification tools and methods.</li>
+            <li>Machine learning driven failure prediction and recovery.</li>
+        </ol>
+        We welcome colleagues from the industry to talk about grand challenges and case studies from deploying
+        network verification systems.
+        </p>
+
+        <h3>Keynote Speakers</h3>
+        <div class="row">
+            <div class="piccolumn">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image007.jpg" alt="Dave" style="width:92%">
+                            <h5><b>Dave Maltz</b></h5>
+                            <h7>CVP and Technical Fellow</h7><br>
+                            <h7>Microsoft Azure Networking</h7>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="piccolumn">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image008.jpg" alt="Anees" style="width:100%">
+                            <h5><b>Anees Shaikh</b></h5>
+                            <h7>Senior Staff Engineer</h7><br>
+                            <h7>Google Cloud Platform</h7>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Policies</h3>
+        We follow the <a href="https://icnp21.cs.ucr.edu/policies.html">ICNP policies</a>.
+        <h3>Workshop Organizers</h3>
+        <div class="row">
+            <div class="piccolumn2">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image012.jpg" alt="Dave" style="width:60%">
+                            <h5><b>Karthick Jayaraman</b></h5>
+                            <h7>Principal software engineer</h7><br>
+                            <h7>Microsoft Azure Networking</h7>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="piccolumn2">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image020.jpg" alt="Anees" style="width:45%">
+                            <h5><b>Hongkun Yang</b></h5>
+                            <h7>Senior software Engineer</h7><br>
+                            <h7>Google Cloud Platform</h7>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Submission Guidelines</h3>
+        Please submit a talk proposal at <a href="https://easychair.org/conferences/?conf=netverify2021">easychair</a>.
+        Proposals should adhere
+        to the IEEE Conference formatting requirements using the templates available <a href="https://www.ieee.org/conferences/publishing/templates.html">here</a>. The proposal should include a
+        talk abstract and biography of the speakers. The maximum length of the proposal is 2 pages. The proposals will
+        be reviewed by the workshop co-chairs.
+
+        <h3>Important Dates</h3>
+        Submission deadline: September 10, 2021<br>
+        Notification of acceptance: September 20, 2021<br>
+        Camera-ready version: October 22, 2021<br>
+        Workshop Date: 1 November, 2021
+
+        <h3>Sponsors</h3>
+        <h4>Gold</h4>
+        <div class="row">
+            <div class="piccolumn">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image001.png" alt="Cisco" style="width:45%">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Silver</h4>
+        <div class="row">
+            <div class="piccolumn">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image025.png" alt="Cisco" style="width:45%">
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="piccolumn">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image006.png" alt="Cisco" style="width:100%">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Supported By</h4>
+        <div class="row">
+            <div class="piccolumn">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image027.png" alt="IEEE Computer Society" style="width:45%">
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="piccolumn">
+                <div class="card2">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image028.jpg" alt="ICNP" style="width:20%">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
