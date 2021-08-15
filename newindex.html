@@ -35,20 +35,6 @@
             box-sizing: border-box;
         }
 
-        .wrapper {
-            display: grid;
-            grid-template-columns: auto;
-            grid-gap: 2px;
-        }
-
-        .box {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            border-radius: 15px;
-            background-color: white;
-            padding: 20px;
-            width: auto;
-        }
-
         *,
         *:before,
         *:after {
@@ -57,7 +43,7 @@
 
         .piccolumn {
             float: left;
-            width: 45%;
+            width: 45%
         }
 
         .piccolumn2 {
@@ -70,14 +56,7 @@
             width: 70%;
         }
 
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
         .card {
-            flex: 0 1 24%;
             margin: 8px;
             padding: 10px;
             border-radius: 25px;
@@ -197,49 +176,53 @@
         </p>
 
         <h3>Keynote Speakers</h3>
-
-        <div class="wrapper">
-            <div class="box a">
-                <div class="container">
-                    <center>
-                        <img src="index_files/image007.jpg" alt="Dave" style="width:30%">
-                        <h5><b>Dave Maltz</b></h5>
-                        <h7>CVP and Technical Fellow</h7><br>
-                        <h7>Microsoft Azure Networking</h7>
-                    </center>
+        <div class="row">
+            <div class="piccolumn">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image007.jpg" alt="Dave" style="width:92%">
+                            <h5><b>Dave Maltz</b></h5>
+                            <h7>CVP and Technical Fellow</h7><br>
+                            <h7>Microsoft Azure Networking</h7>
+                        </center>
+                    </div>
+                    <p>David A. Maltz is the engineering leader for the Azure Networking team, responsible for
+                        developing,
+                        deploying, and operating the software and network devices that connect Microsoft's largest
+                        services,
+                        including the Azure Public Cloud and Microsoft 365. We write the code for the network services
+                        ranging from Network Security to DNS, the distributed systems that control our software defined
+                        and
+                        physical network, and the SONiC firmware that runs many of our physical switches. We design the
+                        cloud-scale networks and data centers that provide petabits of connectivity at low cost and high
+                        reliability, from the optical systems on up.</p>
                 </div>
-                <p>David A. Maltz is the engineering leader for the Azure Networking team, responsible for
-                    developing,
-                    deploying, and operating the software and network devices that connect Microsoft's largest
-                    services,
-                    including the Azure Public Cloud and Microsoft 365. We write the code for the network services
-                    ranging from Network Security to DNS, the distributed systems that control our software defined
-                    and
-                    physical network, and the SONiC firmware that runs many of our physical switches. We design the
-                    cloud-scale networks and data centers that provide petabits of connectivity at low cost and high
-                    reliability, from the optical systems on up.</p>
             </div>
-            <div class="box b">
-                <div class="container">
-                    <center>
-                        <img src="index_files/image008.jpg" alt="Anees" style="width:30%">
-                        <h5><b>Anees Shaikh</b></h5>
-                        <h7>Senior Staff Engineer</h7><br>
-                        <h7>Google Cloud Platform</h7>
-                    </center>
+            <div class="piccolumn">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <img src="index_files/image008.jpg" alt="Anees" style="width:100%">
+                            <h5><b>Anees Shaikh</b></h5>
+                            <h7>Senior Staff Engineer</h7><br>
+                            <h7>Google Cloud Platform</h7>
+                        </center>
+                    </div>
+                    <p>
+                        Anees Shaikh is with the Global Networking team at Google where he works on software systems to
+                        support WAN traffic management, routing security, and cloud network management in Google's
+                        production networks. Anees has published
+                        widely in the areas of networking, cloud computing, and system management, and has been an
+                        invited
+                        speaker in numerous industry forums. He has also been active in a number of open source and
+                        standards efforts, including ONF, OpenStack, and IETF, as well as helping to found the
+                        OpenDaylight
+                        and OpenConfig projects.
+                    </p>
                 </div>
-                <p>Anees Shaikh is with the Global Networking team at Google where he works on software systems to
-                    support WAN traffic management, routing security, and cloud network management in Google's
-                    production networks. Prior to joining Google, he was the Chief SDN Architect in the System
-                    Networking product group at IBM, and a research lead at the T.J. Watson Research Center working
-                    in all three major divisions of IBM Research (software, services, and systems). Anees has
-                    published widely in the areas of networking, cloud computing, and system management, and has
-                    been an invited speaker in numerous industry forums. He has also been active in a number of open
-                    source and standards efforts, including ONF, OpenStack, and IETF, as well as helping to found
-                    the OpenDaylight and OpenConfig projects.</p>
             </div>
         </div>
-
         <h3>Policies</h3>
         We follow the <a href="https://icnp21.cs.ucr.edu/policies.html">ICNP policies</a>.
         <h3>Workshop Organizers</h3>
