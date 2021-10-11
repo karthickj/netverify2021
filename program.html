@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NetVerify 2021 - Network Verification Workshop</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise(json)
+    });
+  </script>
+</head>
+
+<body>
+
+  <style>
+    body {
+      font-family: Calibri, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid black;
+    }
+
+    table {
+      width: 40%;
+      border-collapse: collapse;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: minmax(250px, 50%);
+      grid-gap: 2px;
+    }
+
+    .box {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      background-color: white;
+      padding: 20px;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .piccolumn {
+      float: left;
+      width: 45%;
+    }
+
+    .piccolumn2 {
+      float: left;
+      width: 40%
+    }
+
+    .column {
+      float: left;
+      width: 70%;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card {
+      flex: 0 1 24%;
+      margin: 8px;
+      padding: 10px;
+      border-radius: 25px;
+    }
+
+    .card2 {
+      padding: 1px;
+    }
+
+    .about-section {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      background-color: orangered;
+      color: white;
+      font-weight: 900;
+      border-radius: 15px;
+    }
+
+    .pagebody {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 10px;
+      padding: 20px;
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .container {
+      padding: 0px;
+      text-align: justify;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+
+  <div class="about-section">
+    <h2><b>NetVerify 2021 - Network Verification Workshop</b></h2>
+    <h4><b>In conjunction with the 29th <a href="https://icnp21.cs.ucr.edu/">IEEE ICNP 2021</a>, Online, November 1,
+        2021</b></h4>
+  </div>
+
+  <div class="pagebody">
+    <center><h2>Workshop Program</h2></center>
+    <table style="width:100%;">
+      <tr>
+        <td style="width:20%;">9AM-9:45AM CST / 7:00AM – 7:45AM PST</td>
+        <td style="width:80%;"><b>Opening and Keynote – Dave Maltz’s Keynote.</b></td>
+      </tr>
+      <tr>
+        <td colspan="2">5 - minute break.</td>
+      </tr>
+      <tr>
+        <td>9:50AM – 11:30AM CST / 7:50AM – 9:30AM PST</td>
+        <td><b>Session 1 – Physical network verification (4 papers – 25 mins each)</b>
+          <ol>
+            <li>NCVS: Network Change Validation Service for Azure Datacenters – <i>Andrey Rybalchenko, Microsoft
+                Research</i></li>
+            <li>Framework for Mining High-Level Intents from Low-Level Network Behavior - <i>Ali Kheradmand, UIUC,
+                Google</i></li>
+            <li>Detecting Configuration Errors Via Pattern Mining - <i>Jyotirmay Chauhan, Devon Lee, Emily Yu and Aaron
+                Gember-Jacobson, Colgate University</i></li>
+            <li>Predictable and verifiable datacenter network performance with EQDS - <i>Costin Raiciu, Universitatea
+                Politehnica Bucuresti, Romania</i></li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"> 30-minute break for lunch </td>
+      </tr>
+      <tr>
+        <td>12:00 – 12:40PM CST/ 10:00AM – 10:40AM PST</td>
+        <td><b>Keynote II – Anees Shaik Keynote</b></td>
+      </tr>
+      <tr>
+        <td>12:40PM – 2:20PM CST/ 10:40AM – 12:20PM PST</td>
+        <td> <b>Session 2 – Virtual network verification (4 papers – 25mins each)</b>
+          <ol>
+            <li>Software As a Network and the Implications for Verification - <i>Bingzhe Liu and Brighten Godfrey,
+                UIUC</i></li>
+            <li>Verifying Configurations of Google Virtual Private Cloud Networks - <i>Ivy Liu and Hongkun Yang,
+                Google</i></li>
+            <li>Test Abstractions and Coverage for Network Security Policy Verification - <i>Victor Heorhiadi and
+                Benjamin F. Jones, Amazon Web Services</i></li>
+            <li>Intermediate Representation for Verifying Virtual Networks in Azure - <i>Ryan Beckett, Microsoft
+                Azure</i></li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          10-minute break
+        </td>
+      </tr>
+      <tr>
+        <td>2:30PM – 3:45PM CST / 12:30PM – 1:45PM PST</td>
+        <td><b>Session 3 – Short papers (5 papers - 15 minutes each)</b>
+          <ol>
+            <li>Exploiting Formal Methods To make The Domain Name System More Robust - <i>Siva Kesava Reddy Kakarla,
+                UCLA</i></li>
+            <li>Snowcap: Synthesizing Network-Wide Configuration Updates - <i>Tibor Schneider, ETH Zurich</i></li>
+            <li></li>Towards Agile Network Operation with Layer 4.5 Protocol Customization - <i>Daniel Lukaszewski and
+              Geoffrey
+              Xie, Naval Postgraduate School</i></li>
+            <li>Labyrinth: a Set Theoretic Approach to Network Flow Analysis - <i>Michael Hopcroft, Microsoft</i></li>
+            <li>MachSMT: Machine learning based Algorithm Selection for SMT Solvers - <i>Joseph Scott, University of
+                Waterloo</i></li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">5-minute break</td>
+      </tr>
+      <tr>
+        <td>3:50PM – 4:50PM CST / 1:50PM – 2:50PM PST</td>
+        <td> <b>Panel discussion: Network Verification - Opportunities and Challenges</b>
+
+          <ol>
+            <li>Gargi Adhav, Google</li>
+            <li>John Backes, AWS</li>
+            <li>Brighten Godfrey, UIUC</li>
+            <li>Nikhil Handigol, Forward Networks</li>
+            <li>Ratul Mahajan, IntentionNet & Univ. of Washington</li>
+            <li>Edet Nkposong, Microsoft <b>(Moderator)</b></li>
+            <li>Jitu Padhye, Microsoft</li>
+          </ol>
+        </td>
+      </tr>
+    </table>
+
+
+    <h3>Sponsors</h3>
+    <h4>Gold</h4>
+    <div class="row">
+      <div class="piccolumn">
+        <div class="card2">
+          <div class="container">
+            <center>
+              <img src="index_files/image001.png" alt="Cisco" style="width:45%">
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4>Silver</h4>
+    <div class="row">
+      <div class="piccolumn">
+        <div class="card2">
+          <div class="container">
+            <center>
+              <img src="index_files/image025.png" alt="Cisco" style="width:45%">
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="piccolumn">
+        <div class="card2">
+          <div class="container">
+            <center>
+              <img src="index_files/image006.png" alt="Cisco" style="width:100%">
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4>Supported By</h4>
+    <div class="row">
+      <div class="piccolumn">
+        <div class="card2">
+          <div class="container">
+            <center>
+              <img src="index_files/image027.png" alt="IEEE Computer Society" style="width:45%">
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="piccolumn">
+        <div class="card2">
+          <div class="container">
+            <center>
+              <img src="index_files/image028.jpg" alt="ICNP" style="width:20%">
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
